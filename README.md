@@ -1,6 +1,19 @@
 # obs_text_generator
+
+_EN-US_
 Small Python script to make it easier to insert text chacaracters on OBS scenes
 
+How does it work?
+
+1) On the main program screen, you set the text or activate the function you'd like to display on the OBS scene;
+2) When creating the OBS component (e.g. "Text GDI+"), check "Read from file" e chose the corresponding text file;
+3) From this point on, whenever you click on UPDATE or OK, the file will be updated (and so the text on the OBS scene).
+
+All files are created inside the same directory th script is running.
+
+
+
+_PT-BR_
 Como funciona?
 
 1) Na tela do programa, você define o texto, ou ativa a função que você gostaria de exibir na cena do OBS;
