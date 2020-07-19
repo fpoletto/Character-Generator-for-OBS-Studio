@@ -68,7 +68,7 @@ class MainWindow(QtWidgets.QDialog):
 
     def update_image_file(self):
         try:
-            self.old_file = 'C:\\Users\\Megalos\\PycharmProjects\\obs_text_generator\\image.jpg'
+            self.old_file = 'image.jpg'
             shutil.copy(self.new_file, self.old_file)
         except Exception as E:
             print(E)
